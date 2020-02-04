@@ -1,37 +1,37 @@
 <resources>
-    <string name="additonal_perms_req">Additional Permissions Required</string>
-    <string name="proceed">Proceed</string>
+    <string name="additonal_perms_req">Weitere Berechtigungen erforderlich</string>
+    <string name="proceed">Fortfahren</string>
     <string name="app_name">Volume Panel</string>
     <string name="volumeui">Volume UI</string>
-    <string name="current_shot">Currently set to %1$d seconds</string>
+    <string name="current_shot">Auf %1$d Sekunden eingestellt</string>
     <string name="overlay_needed"><u>System Overlay</u>
-        \n\nThis permission is required for us to display the Volume Panel over other apps.</string>
-    <string name="failed_window_add">Failed to add window, please open the app and make sure Screen Overlay permissions have been granted</string>
-    <string name="cp_head">Tap CENTER to confirm</string>
-    <string name="transparency">Transparency</string>
-    <string name="disable">Disable</string>
-    <string name="cancel">Cancel</string>
+        \n\nDiese Berechtigung ist erforderlich, damit Volume Panel auf anderen Apps angezeigt werden kann.</string>
+    <string name="failed_window_add">Anzeige fehlgeschlagen, bitte starte die App und stell sicher, dass die Berechtigung für Screen Overlay erteilt wurde.</string>
+    <string name="cp_head">Zum akzeptiren in die MITTE </string>
+    <string name="transparency">Transparenz</string>
+    <string name="disable">Abschalten</string>
+    <string name="cancel">Abbrech</string>
     <string name="press_back">Once complete, press back to return to the app.</string>
-    <string name="accessibility_description"><u>Accessibility Access</u>
-        \n\nThis permission allows us to detect volume +\\- key presses.
-        \n\nNo other content is captured.
-        \n\nSome devices may require a reboot to start the service.</string>
-    <string name="need_dnd">Do Not Disturb Permissions Required</string>
-    <string name="no">No</string>
+    <string name="accessibility_description"><u>Barrierefreiheit</u>
+        \n\nDiese Berechtigung ermöglicht es festzustellen, ob die Lautstärke-Tasten gedrückt wurden.
+        \n\nEs werden keine anderen Aktionen abgefragt.
+        \n\nEinige Geräte müssen danach neugestartet werden.</string>
+    <string name="need_dnd">Bitte nicht stören Berechtigung benötigt</string>
+    <string name="no">Nein</string>
     <string name="vol_timeout">Panel Timeout</string>
-    <string name="yes">Yes</string>
+    <string name="yes">Ja</string>
     <string name="notification_listener">Volume Panel Notification Listener</string>
-    <string name="apply">Apply</string>
-    <string name="perms"><u>Permissions Required</u>
-        \n\nIn order to override the system volume panel, several permissions are required.
-        \n\nWe will now show you several screens detailing those permissions, their usage &amp; a button to enable them.
+    <string name="apply">Akzeptieren</string>
+    <string name="perms"><u>Berechtigungen benötigt</u>
+        \n\nDamit die Lautstärke-Anzeige verändert werden kann, sind einige Berechtigungen nötig.
+        \n\nIm Folgenden werden einige Hinweise zu den Berechtigungen angezeigt &amp; Schaltflächen um diese zu akzeptieren.
         \n\n</string>
-    <string name="grant">Grant Permission</string>
-    <string name="not_found">Activity not found, please navigate to Settings and grant manually</string>
+    <string name="grant">Berechtigung erteilen</string>
+    <string name="not_found">Aktivität nicht gefunden, bitte in den Einstellungen manuell erteilen</string>
     <string name="exclude_applications">Exclude Applications</string>
-    <string name="icon_colour">Icon Colour</string>
-    <string name="background_colour">Background Colour</string>
-    <string name="slider_colour">Slider colour</string>
+    <string name="icon_colour">Icon Farbe</string>
+    <string name="background_colour">Hintergrund Farbe</string>
+    <string name="slider_colour">Regler Farbe</string>
     <string name="_3s">3s</string>
     <string name="panel_timeout">Panel Timeout</string>
     <string name="show_alarm_panel">Show Alarm Panel</string>
@@ -39,10 +39,10 @@
     <string name="start_collapsed">Start Collapsed</string>
     <string name="position_left">Left Handed</string>
     <string name="dark_mode">Dark Mode</string>
-    <string name="enable_volume_panel">Volume Button Override</string>
-    <string name="select_apps">Select Applications</string>
-    <string name="loading_apps">Loading Applications</string>
-    <string name="done">Done</string>
+    <string name="enable_volume_panel">Lautstärke-Tasten überschreiben</string>
+    <string name="select_apps">Anwendungen auswählen</string>
+    <string name="loading_apps">Lädt Anwendungen</string>
+    <string name="done">Fertig</string>
     <string name="exclude_applications_sum">\u2022 Volume panel will not open in these applications.</string>
     <string name="timeout">%1$ds</string>
     <string name="about">
@@ -61,18 +61,19 @@
         <br/>\u2022 Nuno Nebeker - Portuguese
         <br/>\u2022 Игорь Иринин - Russian
         <br/><br/>Feel free to contact me via the \"Email Feedback\" option &amp; don\'t forget to leave a review &#128512;]]></string>
-    <string name="about_title">About</string>
-    <string name="email_feedback">Email Feedback</string>
-    <string name="close">Close</string>
-    <string name="rate_app">Rate App</string>
-    <string name="disabling">This app was not installed from Google Play &amp; will soon be disabled.</string>
-    <string name="oops_error">Oops.. It looks like something went wrong and Volume Panel crashed, please hit \"SEND REPORT\" below to let me know.</string>
-    <string name="latest">Please make sure you are using the latest version.</string>
-    <string name="send_report">Send Report</string>
-    <string name="add_shortcut">Enable Launcher Shortcut</string>
-    <string name="launch">Show Volume Panel</string>
-    <string name="disable_acc">PLEASE DISABLE THE ACCESSIBILITY SERVICE.</string>
-    <string name="ver_pos">Vertical Position</string>
+    <string name="about_title">Über</string>
+    <string name="email_feedback">E-Mail Feedback</string>
+    <string name="close">Schließen</string>
+    <string name="rate_app">App bewerten</string>
+    <string name="disabling">Diese App wurde nicht über Google Play installiert und wird sich in kürze abschalten.</string>
+    <string name="oops_error">Hoppla.. Es ist etwas schiefgelaufen und Volume Panel ist abgestürzt, bitte klicke auf \"Bericht senden\" um den Entwickler zu informieren.
+</string>
+    <string name="latest">Bitte überprüfe ob auch die aktuellste Version installiert ist.</string>
+    <string name="send_report">Bericht senden</string>
+    <string name="add_shortcut">Aktiviere Launcher Verknüpfung</string>
+    <string name="launch">Zeige Volume Panel an</string>
+    <string name="disable_acc">BITTE DEAKTIVIERE DIE BARRIEREFREIHEIT.</string>
+    <string name="ver_pos">Vertikale Position</string>
     <string name="ver_pos_sum">\u2022 From the top of the screen</string>
     <string name="ver_pos_val">%1$d%%</string>
     <string name="_50">50\%</string>
